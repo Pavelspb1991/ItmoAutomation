@@ -17,3 +17,15 @@ elif not permit_print:
 
 
 
+
+a = 99
+if a > 100:
+    print("-")
+elif -100 > a:
+    print('-')
+else:
+    print("+")
+
+
+
+
