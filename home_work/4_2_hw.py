@@ -1,24 +1,17 @@
-class Button:
-    def __init__(self, text, link, tip):
-        self.text = text
-        self.link = link
-        self.type = tip
+class Math:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
 
-    def clcik(self):
-        print(f"Клик по кнопке:", self.text)
+    def addition(self):
+        result = self.a + self.b
+        print(result)
 
+    def multiplication(self):
+        print(self.a / self.b)
 
-textbox = Button("textbox", '', "Кнопка")
-checkbox = Button("checkbox ", '', "Кнопка")
-radiobutton = Button("radiobutton ", '', "Кнопка")
-webcatbles = Button("webcatbles ", '', "Кнопка")
-buttons = Button("buttons", '', "Кнопка")
-links = Button("links ", '', "Кнопка")
-brokenlinks = Button("brokenlinks ", '', "Кнопка")
-textbox.clcik()
-checkbox.clcik()
-radiobutton.clcik()
-webcatbles.clcik()
-buttons.clcik()
-links.clcik()
-brokenlinks.clcik()
+    def division(self):
+        print(self.a / self.b)
+
+    def substraction(self):
+        print(self.a - self.b)

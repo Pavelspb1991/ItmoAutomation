@@ -1,3 +1,5 @@
+from task_9_ import
+
 class Input:
     def __init__(self, loc, text):
         self.loc = loc
