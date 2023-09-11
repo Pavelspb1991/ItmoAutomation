@@ -10,8 +10,8 @@ class Car:
     def stop(self):
         print("Автомобиль заглушен")
 
-    def year(self):
-        self.year = 2016
+    def year(self, year_new):
+        self.year = year_new
 
     def type_1(self):
         self.type_1 = "hatchback"

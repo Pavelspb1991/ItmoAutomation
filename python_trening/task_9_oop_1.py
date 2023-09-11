@@ -1,4 +1,4 @@
-from task_9_checks import Checks
+from python_trening.task_9_checks import Checks
 
 
 class Input(Checks):
