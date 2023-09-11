@@ -1,25 +1,30 @@
-from task_9_ import
+from task_9_checks import Checks
 
-class Input:
+
+class Input(Checks):
     def __init__(self, loc, text):
+        super().__init__()
         self.loc = loc
         self.text = text
 
 
-class Button:
+class Button(Checks):
     def __init__(self, loc, text):
+        super().__init__()
         self.loc = loc
         self.text = text
 
 
-class Title:
+class Title(Checks):
     def __init__(self, loc, text):
+        super().__init__()
         self.loc = loc
         self.text = text
 
 
-class Link:
+class Link(Checks):
     def __init__(self, loc, text):
+        super().__init__()
         self.loc = loc
         self.text = text
 
@@ -29,9 +34,11 @@ Main = Title("Лок", "Текст")
 wow = Link("Лок", "Текст")
 knopka = Button("Лок", "Текст")
 
+
 print(search.loc, search.text)
 print(Main.loc, Main.text)
 print(wow.loc, wow.text)
 print(knopka.loc, knopka.text)
+
 
 # Четыре класса и у каждого по 2 атрибута (лок и текст) +у каждого класса свой 1 обьект
