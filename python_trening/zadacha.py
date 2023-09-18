@@ -9,7 +9,10 @@ def surface(r, pi=3.14):
 
 print(surface(2))
 
-
+from selenium import webdriver
+url = 'https://stepik.org/'
+browser = webdriver.Chrome()
+browser.get(url)
 
 
 
