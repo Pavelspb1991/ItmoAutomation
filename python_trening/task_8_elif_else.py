@@ -9,7 +9,7 @@ else:
 
 
 permit_print = True
-num = -5
+num = 5
 if num > 0 and permit_print:
     print('num - положительное')
 elif not permit_print:
@@ -18,7 +18,7 @@ elif not permit_print:
 
 
 
-a = 99
+a = -200
 if a > 100:
     print("-")
 elif -100 > a:
